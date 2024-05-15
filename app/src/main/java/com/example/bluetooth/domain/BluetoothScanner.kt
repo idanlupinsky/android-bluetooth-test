@@ -34,7 +34,6 @@ class BluetoothScanner(private val bluetoothAdapter: BluetoothAdapter) {
     @SuppressLint("MissingPermission")
     fun startScan() {
         Log.i(TAG, "startScan: btEnabled ${bluetoothAdapter.isEnabled}")
-//        bluetoothAdapter.bluetoothLeScanner?.startScan(null, scanSettings, scanCallback)
         bluetoothAdapter.bluetoothLeScanner?.startScan(scanCallback)
     }
 
