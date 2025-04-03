@@ -1,1 +1,1 @@
-Just a simple Android Bluetooth test code.
+Simple Android Bluetooth test code.
