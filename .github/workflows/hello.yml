@@ -11,3 +11,8 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello, World!!"
+  say-goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Goodbye
+        run: echo "Goodbye, World!!"
